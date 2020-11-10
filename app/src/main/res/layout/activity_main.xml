@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/blue2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_marginTop="0dp"
+    android:paddingLeft="60dp"
+    >
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_marginTop="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  PSV MANAGEMENT"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+         />
+
+   <GridLayout
+       android:orientation="vertical"
+       android:layout_marginTop="30dp">
+
+       <Button
+           android:id="@+id/btnQr"
+           android:layout_width="270dp"
+           android:layout_height="140dp"
+           android:layout_marginTop="0dp"
+           android:background="@color/colorAccent"
+           android:gravity="center"
+           android:text="QR Scan"
+           android:textSize="20sp"
+
+           />
+
+       <SearchView
+           android:id="@+id/search_button"
+           android:layout_width="270dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:paddingLeft="100dp"
+           android:layout_marginTop="15dp"
+           ></SearchView>
+
+
+   </GridLayout>
+    <Button
+        android:id="@+id/data"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#D12D2D"
+        />
+    <GridLayout
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/analysisx"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="analysis"
+            android:background="#ED9A20"
+            />
+
+        <Button
+            android:id="@+id/catch_up"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="catch up"
+            android:background="#8D6D93"/>
+    </GridLayout>
+</GridLayout>

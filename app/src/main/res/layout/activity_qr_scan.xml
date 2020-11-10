@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Qr_scan"
+    android:paddingBottom="@dimen/cardview_default_radius"
+    android:paddingLeft="@dimen/cardview_default_radius"
+    android:paddingRight="@dimen/cardview_default_radius"
+    android:paddingTop="@dimen/cardview_default_radius"
+    >
+  <me.dm7.barcodescanner.zxing.ZXingScannerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:id="@+id/zxscan"
+     android:layout_above="@+id/layout_result"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:id="@+id/layout_result"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="15dp"
+      >
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="The result will be here"
+      android:textSize="15sp"
+      android:textStyle="bold"
+      />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_result"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        />
+  </LinearLayout>
+
+
+</RelativeLayout>

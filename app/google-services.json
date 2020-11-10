@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "275303015095",
+    "firebase_url": "https://psv-app-9e291.firebaseio.com",
+    "project_id": "psv-app-9e291",
+    "storage_bucket": "psv-app-9e291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275303015095:android:a8c0269a08b716dbafe332",
+        "android_client_info": {
+          "package_name": "prime.tech.menu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275303015095-b79brlg2460d9lvuhr9hvoagq32licgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUGAqyo3z8eQf-Frxfpv2BqtfbKFOcfes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275303015095-b79brlg2460d9lvuhr9hvoagq32licgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
